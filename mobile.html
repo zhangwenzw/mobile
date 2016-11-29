@@ -48,7 +48,7 @@
     })
 
     touch.on("body","dragend",".box",function(e){
-        if(Math.abs(e.x)>300){
+        if(Math.abs(e.x)>200){
             if(e.direction=="left"){
                 num++;
                 if(num==$(".box a").length){
